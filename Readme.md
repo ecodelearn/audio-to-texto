@@ -6,6 +6,7 @@ Este projeto é um aplicativo de transcrição de áudio para texto utilizando a
 ## Pré-requisitos
 - Python 3.7 ou superior
 - Pip (Python package installer)
+- ffmpeg
 
 ## Instalação
 1. Clone o repositório:
@@ -22,6 +23,17 @@ Este projeto é um aplicativo de transcrição de áudio para texto utilizando a
     ```sh
     pip install -r requirements.txt
     ```
+4. Instale o `ffmpeg`:
+    - **Para Ubuntu/Debian**:
+        ```sh
+        sudo apt-get install ffmpeg
+        ```
+    - **Para macOS (usando Homebrew)**:
+        ```sh
+        brew install ffmpeg
+        ```
+    - **Para Windows**:
+        [Baixe o executável do site oficial do FFmpeg](https://ffmpeg.org/download.html) e adicione-o ao PATH do sistema.
 
 ## Como Usar
 1. Execute o aplicativo Streamlit:
