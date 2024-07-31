@@ -38,8 +38,13 @@ Este projeto é um aplicativo de transcrição de áudio para texto utilizando a
 ## Como Usar
 1. Execute o aplicativo Streamlit:
     ```sh
-    streamlit run app.py
+    streamlit run aruivo-unico.py
     ```
+    Para multiplos arquivos
+    ```sh
+    streamlit run multiplos-unico.py
+    ```
+
 2. No navegador, insira sua chave API da OpenAI no campo fornecido na barra lateral e pressione Enter.
 3. Faça upload de um arquivo de áudio nos formatos suportados (wav, mp3, flac, ogg, opus).
 4. Acompanhe o progresso da transcrição na interface.
